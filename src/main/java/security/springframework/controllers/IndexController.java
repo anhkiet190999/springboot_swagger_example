@@ -1,4 +1,4 @@
-package guru.springframework.controllers;
+package security.springframework.controllers;
 
 
 import org.springframework.web.bind.annotation.RequestMapping;
