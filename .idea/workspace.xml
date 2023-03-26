@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="32d5f5a2-8355-4955-9c00-23a09660df91" name="Default" comment="Updated to SpringBoot 2.0.0.RELEASE and springfox-swagger2 2.8.0">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/security/springframework/config/SwaggerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/security/springframework/config/SwaggerConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/security/springframework/controllers/ContactController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/security/springframework/controllers/ContactController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/security/springframework/validation/Validator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/security/springframework/validation/Validator.java" afterDir="false" />
     </list>

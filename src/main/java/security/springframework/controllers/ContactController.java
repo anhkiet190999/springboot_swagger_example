@@ -42,9 +42,11 @@ public class ContactController {
     @RequestMapping(value = "/add", method = RequestMethod.POST, produces = "application/json")
     public ResponseEntity addContact(@RequestBody Contact contact){
         if(Validator.validateName(contact.getName()) == false){
-            return new ResponseEntity("invalid input", HttpStatus.BAD_REQUEST); //400
+            return new ResponseEntity("invalid name", HttpStatus.BAD_REQUEST); //400
         }
-
+        if(Validator.validateNumber(contact.getNumber())==false){
+            return new ResponseEntity("invalid number", HttpStatus.BAD_REQUEST); //400
+        }
         contactService.addContact(contact);
         return new ResponseEntity("New contact saved successfully", HttpStatus.OK);
     }
