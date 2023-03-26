@@ -21,8 +21,8 @@ public class ContactController {
     private ContactService contactService;
 
     @Autowired
-    public void setProductService(ContactService productService) {
-        this.contactService = productService;
+    public void setProductService(ContactService contactService) {
+        this.contactService = contactService;
     }
 
     @ApiOperation(value = "View a list of all contacts in the phonebook",response = Iterable.class)

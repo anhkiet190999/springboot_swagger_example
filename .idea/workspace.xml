@@ -5,31 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="32d5f5a2-8355-4955-9c00-23a09660df91" name="Default" comment="Updated to SpringBoot 2.0.0.RELEASE and springfox-swagger2 2.8.0">
-      <change afterPath="$PROJECT_DIR$/src/main/java/security/springframework/controllers/ContactController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/security/springframework/domain/Contact.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/security/springframework/services/ContactService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/security/springframework/services/ContactServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/security/springframework/validation/Validator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/guru/springframework/SpringBootWebApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/security/springframework/SpringBootWebApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/guru/springframework/bootstrap/SpringJpaBootstrap.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/guru/springframework/config/SpringSecConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/security/springframework/config/SpringSecConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/guru/springframework/config/SwaggerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/security/springframework/config/SwaggerConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/guru/springframework/config/WebConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/security/springframework/config/WebConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/guru/springframework/controllers/IndexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/security/springframework/controllers/IndexController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/guru/springframework/controllers/ProductController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/guru/springframework/domain/Product.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/guru/springframework/repositories/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/security/springframework/repositories/ContactRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/guru/springframework/services/CRUDService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/security/springframework/services/CRUDService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/guru/springframework/services/ProductService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/guru/springframework/services/ProductServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/guru/springframework/SpringBootWebApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/guru/springframework/configuration/RepositoryConfiguration.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/guru/springframework/repositories/ProductRepositoryTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/guru/springframework/services/ProductServiceImplMockTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/guru/springframework/services/ProductServiceImplSpyTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/security/springframework/config/SwaggerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/security/springframework/config/SwaggerConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/security/springframework/controllers/ContactController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/security/springframework/controllers/ContactController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/security/springframework/validation/Validator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/security/springframework/validation/Validator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
