@@ -11,6 +11,8 @@ public interface ContactService {
 
     Contact addContact(Contact contact);
 
-    void deleteContactByName(String name);
-    void deleteContactByNumber(String number);
+    Integer deleteContactByName(String name);
+    Integer deleteContactByNumber(String number);
+    boolean isExistedName(String name);
+    boolean isExistedNumber(String number);
 }

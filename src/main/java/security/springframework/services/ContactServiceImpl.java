@@ -42,14 +42,18 @@ public class ContactServiceImpl implements ContactService {
                 return contact.getId();
             }
         }
-        return 0;
+        return -1;
     }
 
     @Override
-    public void deleteContactByName(String name) {
+    public Integer deleteContactByName(String name) {
         logger.debug("deleteContactByName called");
         Integer id = findIdByName(name);
+        if(id == -1){
+            return -1;
+        }
         contactRepository.deleteById(id);
+        return 1;
     }
 
     private  Integer findIdByNumber(String number){
@@ -59,13 +63,31 @@ public class ContactServiceImpl implements ContactService {
                 return contact.getId();
             }
         }
-        return 0;
+        return -1;
     }
 
     @Override
-    public void deleteContactByNumber(String number) {
+    public Integer deleteContactByNumber(String number) {
         logger.debug("deleteContactByNumber called");
         Integer id = findIdByNumber(number);
+        if(id == -1){
+            return -1;
+        }
         contactRepository.deleteById(id);
+        return 1;
+    }
+
+    public boolean isExistedName(String name){
+        if(findIdByName(name) == -1){
+            return false;
+        }
+        return true;
+    }
+
+    public boolean isExistedNumber(String number){
+        if(findIdByName(number) == -1){
+            return false;
+        }
+        return true;
     }
 }
