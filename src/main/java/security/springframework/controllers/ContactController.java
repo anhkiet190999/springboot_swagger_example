@@ -21,7 +21,7 @@ public class ContactController {
     private ContactService contactService;
 
     @Autowired
-    public void setProductService(ContactService contactService) {
+    public void setContactService(ContactService contactService) {
         this.contactService = contactService;
     }
 

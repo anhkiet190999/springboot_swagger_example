@@ -23,12 +23,6 @@ public class ContactServiceImpl implements ContactService {
         return contactRepository.findAll();
     }
 
-//    @Override
-//    public Contact getContactById(Integer id) {
-//        logger.debug("getContactByName called");
-//        return contactRepository.findById(id).orElse(null);
-//    }
-
     @Override
     public Contact addContact(Contact contact) {
         logger.debug("addContact called");
