@@ -1,5 +1,7 @@
 package security.springframework.controllers;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import security.springframework.domain.Contact;
 import security.springframework.services.ContactService;
 import io.swagger.annotations.Api;
@@ -17,7 +19,7 @@ import security.springframework.validation.Validator;
 @RequestMapping("/PhoneBook")
 @Api(value="phonebook", description="Operations with contacts in a PhoneBook")
 public class ContactController {
-
+    private static final Logger logger = LogManager.getLogger(ContactController.class);
     private ContactService contactService;
 
     @Autowired
@@ -35,6 +37,7 @@ public class ContactController {
     @RequestMapping(value = "/list", method= RequestMethod.GET, produces = "application/json")
     public Iterable<Contact> list(Model model){
         Iterable<Contact> contactList = contactService.listAllContacts();
+        logger.info("/list");
         return contactList;
     }
 
