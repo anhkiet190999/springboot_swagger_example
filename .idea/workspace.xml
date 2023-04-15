@@ -6,11 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="32d5f5a2-8355-4955-9c00-23a09660df91" name="Default" comment="Updated to SpringBoot 2.0.0.RELEASE and springfox-swagger2 2.8.0">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/testdb.mv.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/testdb.trace.db" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/security/springframework/SpringBootWebApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/security/springframework/SpringBootWebApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/security/springframework/controllers/ContactController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/security/springframework/controllers/ContactController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/security/springframework/repositories/ContactRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/security/springframework/repositories/ContactRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testdb.mv.db" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
